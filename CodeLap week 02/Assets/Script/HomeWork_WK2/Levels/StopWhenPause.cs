@@ -29,7 +29,7 @@ public class StopWhenPause : MonoBehaviour
         if (systemController.pauseGame == true || systemController.endGame == true)
         {
             moving.enabled = false;
-            rotating.enabled = false;   
+            rotating.enabled = false;
         }
     }
 
